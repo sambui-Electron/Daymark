@@ -27,3 +27,6 @@ src-tauri/gen/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# VS code workspace settings
+.vscode/
