@@ -1,0 +1,29 @@
+# Node dependencies
+node_modules/
+
+# Frontend build output
+dist/
+.vite/
+
+# Tauri and Rust build output
+src-tauri/target/
+src-tauri/gen/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and backups
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
